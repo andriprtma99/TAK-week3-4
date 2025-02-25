@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Add to Cart" time="126.737" tests="7" failures="0" errors="0">
+   <testsuite name="TS_Add to Cart" tests="7" failures="0" errors="0" time="126.737" skipped="0" timestamp="26-02-2025T01:47:26" hostname="Andri - Andri" id="Test Suites/Test Suites/TS_Add to Cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Andri\\Katalon Studio\\TAK Batch 9 - Sesi 3 dan 4\\Reports\\20250226_014719\\Test Suites\\TS_Add to Cart\\20250226_014719"/>
+         <property name="logFiles" value="C:\\Users\\Andri\\Katalon Studio\\TAK Batch 9 - Sesi 3 dan 4\\Reports\\20250226_014719\\Test Suites\\TS_Add to Cart\\20250226_014719\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Andri\\Katalon Studio\\TAK Batch 9 - Sesi 3 dan 4\\Reports\\20250226_014719\\Test Suites\\TS_Add to Cart\\20250226_014719\\1740509324750.png"/>
+         <property name="hostName" value="Andri - Andri"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 133.0.6943.127"/>
+         <property name="hostAddress" value="192.168.1.53"/>
+         <property name="sessionId" value="1663a49715feec95634759d5c4c63f30"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Scenario/2_TC_Login" time="12.418" classname="Test Cases/Scenario/2_TC_Login" status="PASSED">
+         <system-out><![CDATA[26-02-2025T01:47:26 - [TEST_CASE][PASSED] - Test Cases/Scenario/2_TC_Login: Test Cases/Scenario/2_TC_Login
+
+26-02-2025T01:47:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/1_TB_Open_Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser' successfully
+
+26-02-2025T01:47:27 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser: Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser
+
+26-02-2025T01:47:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-02-2025T01:47:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2025T01:47:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2025T01:47:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-02-2025T01:47:29 - [TEST_STEP][PASSED] - navigateToUrl("https://bookcart.azurewebsites.net/"): Navigate to 'https://bookcart.azurewebsites.net/' successfully
+
+26-02-2025T01:47:34 - [MESSAGE][PASSED] - Navigate to 'https://bookcart.azurewebsites.net/' successfully
+
+26-02-2025T01:47:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser' successfully
+
+26-02-2025T01:47:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/4_TB_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/4_TB_Login' successfully
+
+26-02-2025T01:47:34 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/4_TB_Login: Test Cases/Blocks/Positif Test Case/4_TB_Login
+
+26-02-2025T01:47:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page Home_Non Login/span_Book Cart-Home"), 0): Object 'Object Repository/Page Home_Non Login/span_Book Cart-Home' is visible
+
+26-02-2025T01:47:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:47:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page Home_Non Login/span_Book Cart-Home' is visible
+
+26-02-2025T01:47:35 - [TEST_STEP][PASSED] - click(findTestObject("Page Home_Non Login/span_btn-Login")): Object: 'Object Repository/Page Home_Non Login/span_btn-Login' is clicked on
+
+26-02-2025T01:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Home_Non Login/span_btn-Login' is clicked on
+
+26-02-2025T01:47:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/mat-label-login"), 0): Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:47:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:47:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:47:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/mat-label-login"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:47:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:47:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Username"), "andripratamaa"): Keys 'andripratamaa' sent to object: 'Object Repository/Page_Login/input_Username'
+
+26-02-2025T01:47:37 - [MESSAGE][PASSED] - Keys 'andripratamaa' sent to object: 'Object Repository/Page_Login/input_Username'
+
+26-02-2025T01:47:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), "Password123"): Keys 'Password123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+26-02-2025T01:47:37 - [MESSAGE][PASSED] - Keys 'Password123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+26-02-2025T01:47:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/span_btn-Login")): Object: 'Object Repository/Page_Login/span_btn-Login' is clicked on
+
+26-02-2025T01:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/span_btn-Login' is clicked on
+
+26-02-2025T01:47:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:47:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:47:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:47:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:47:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:47:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/4_TB_Login' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario/3_TC_Detail_Product" time="26.993" classname="Test Cases/Scenario/3_TC_Detail_Product" status="PASSED">
+         <system-out><![CDATA[26-02-2025T01:47:39 - [TEST_CASE][PASSED] - Test Cases/Scenario/3_TC_Detail_Product: Test Cases/Scenario/3_TC_Detail_Product
+
+26-02-2025T01:47:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/1_TB_Open_Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser' successfully
+
+26-02-2025T01:47:39 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser: Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser
+
+26-02-2025T01:47:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-02-2025T01:47:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-02-2025T01:47:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2025T01:47:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2025T01:47:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-02-2025T01:47:42 - [TEST_STEP][PASSED] - navigateToUrl("https://bookcart.azurewebsites.net/"): Navigate to 'https://bookcart.azurewebsites.net/' successfully
+
+26-02-2025T01:47:58 - [MESSAGE][PASSED] - Navigate to 'https://bookcart.azurewebsites.net/' successfully
+
+26-02-2025T01:47:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser' successfully
+
+26-02-2025T01:47:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/4_TB_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/4_TB_Login' successfully
+
+26-02-2025T01:47:59 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/4_TB_Login: Test Cases/Blocks/Positif Test Case/4_TB_Login
+
+26-02-2025T01:47:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page Home_Non Login/span_Book Cart-Home"), 0): Object 'Object Repository/Page Home_Non Login/span_Book Cart-Home' is visible
+
+26-02-2025T01:47:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:47:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page Home_Non Login/span_Book Cart-Home' is visible
+
+26-02-2025T01:47:59 - [TEST_STEP][PASSED] - click(findTestObject("Page Home_Non Login/span_btn-Login")): Object: 'Object Repository/Page Home_Non Login/span_btn-Login' is clicked on
+
+26-02-2025T01:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Home_Non Login/span_btn-Login' is clicked on
+
+26-02-2025T01:47:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/mat-label-login"), 0): Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:47:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:48:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/mat-label-login"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:48:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:48:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Username"), "andripratamaa"): Keys 'andripratamaa' sent to object: 'Object Repository/Page_Login/input_Username'
+
+26-02-2025T01:48:00 - [MESSAGE][PASSED] - Keys 'andripratamaa' sent to object: 'Object Repository/Page_Login/input_Username'
+
+26-02-2025T01:48:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), "Password123"): Keys 'Password123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+26-02-2025T01:48:01 - [MESSAGE][PASSED] - Keys 'Password123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+26-02-2025T01:48:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/span_btn-Login")): Object: 'Object Repository/Page_Login/span_btn-Login' is clicked on
+
+26-02-2025T01:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/span_btn-Login' is clicked on
+
+26-02-2025T01:48:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/4_TB_Login' successfully
+
+26-02-2025T01:48:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/5_TB_Detail_Product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/5_TB_Detail_Product' successfully
+
+26-02-2025T01:48:03 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/5_TB_Detail_Product: Test Cases/Blocks/Positif Test Case/5_TB_Detail_Product
+
+26-02-2025T01:48:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), 0): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/span_profile-andripratamaa")): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:03 - [TEST_STEP][PASSED] - click(findTestObject("Book Details/strong_Harry Potter and the Chamber of Secrets 1")): Object: 'Object Repository/Book Details/strong_Harry Potter and the Chamber of Secrets 1' is clicked on
+
+26-02-2025T01:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Book Details/strong_Harry Potter and the Chamber of Secrets 1' is clicked on
+
+26-02-2025T01:48:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Book Details/mat-label-Book Details"), 0): Object 'Object Repository/Book Details/mat-label-Book Details' is visible
+
+26-02-2025T01:48:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:04 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/mat-label-Book Details' is visible
+
+26-02-2025T01:48:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Book Details/mat-label-Book Details")): Object 'Object Repository/Book Details/mat-label-Book Details' is visible
+
+26-02-2025T01:48:05 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/mat-label-Book Details' is visible
+
+26-02-2025T01:48:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Book Details/td_Title_Harry Potter and the Chamber of Secrets 1"), "Harry Potter and the Chamber of Secrets"): Actual text and expected text of test object 'Object Repository/Book Details/td_Title_Harry Potter and the Chamber of Secrets 1' are matched.
+
+26-02-2025T01:48:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Details/td_Title_Harry Potter and the Chamber of Secrets 1' are matched.
+
+26-02-2025T01:48:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Book Details/td_Author_JKR"), "JKR"): Actual text and expected text of test object 'Object Repository/Book Details/td_Author_JKR' are matched.
+
+26-02-2025T01:48:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Details/td_Author_JKR' are matched.
+
+26-02-2025T01:48:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Book Details/td_Category_Mystery"), "Mystery"): Actual text and expected text of test object 'Object Repository/Book Details/td_Category_Mystery' are matched.
+
+26-02-2025T01:48:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Details/td_Category_Mystery' are matched.
+
+26-02-2025T01:48:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Book Details/td_Price_236.00")): Object 'Object Repository/Book Details/td_Price_236.00' is visible
+
+26-02-2025T01:48:06 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/td_Price_236.00' is visible
+
+26-02-2025T01:48:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/5_TB_Detail_Product' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario/4_TC_Add_Wish_List" time="15.306" classname="Test Cases/Scenario/4_TC_Add_Wish_List" status="PASSED">
+         <system-out><![CDATA[26-02-2025T01:48:06 - [TEST_CASE][PASSED] - Test Cases/Scenario/4_TC_Add_Wish_List: Test Cases/Scenario/4_TC_Add_Wish_List
+
+26-02-2025T01:48:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/1_TB_Open_Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser' successfully
+
+26-02-2025T01:48:06 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser: Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser
+
+26-02-2025T01:48:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-02-2025T01:48:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-02-2025T01:48:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2025T01:48:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2025T01:48:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-02-2025T01:48:07 - [TEST_STEP][PASSED] - navigateToUrl("https://bookcart.azurewebsites.net/"): Navigate to 'https://bookcart.azurewebsites.net/' successfully
+
+26-02-2025T01:48:13 - [MESSAGE][PASSED] - Navigate to 'https://bookcart.azurewebsites.net/' successfully
+
+26-02-2025T01:48:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser' successfully
+
+26-02-2025T01:48:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/4_TB_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/4_TB_Login' successfully
+
+26-02-2025T01:48:13 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/4_TB_Login: Test Cases/Blocks/Positif Test Case/4_TB_Login
+
+26-02-2025T01:48:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page Home_Non Login/span_Book Cart-Home"), 0): Object 'Object Repository/Page Home_Non Login/span_Book Cart-Home' is visible
+
+26-02-2025T01:48:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page Home_Non Login/span_Book Cart-Home' is visible
+
+26-02-2025T01:48:13 - [TEST_STEP][PASSED] - click(findTestObject("Page Home_Non Login/span_btn-Login")): Object: 'Object Repository/Page Home_Non Login/span_btn-Login' is clicked on
+
+26-02-2025T01:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Home_Non Login/span_btn-Login' is clicked on
+
+26-02-2025T01:48:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/mat-label-login"), 0): Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:48:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:48:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/mat-label-login"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:48:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:48:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Username"), "andripratamaa"): Keys 'andripratamaa' sent to object: 'Object Repository/Page_Login/input_Username'
+
+26-02-2025T01:48:14 - [MESSAGE][PASSED] - Keys 'andripratamaa' sent to object: 'Object Repository/Page_Login/input_Username'
+
+26-02-2025T01:48:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), "Password123"): Keys 'Password123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+26-02-2025T01:48:15 - [MESSAGE][PASSED] - Keys 'Password123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+26-02-2025T01:48:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/span_btn-Login")): Object: 'Object Repository/Page_Login/span_btn-Login' is clicked on
+
+26-02-2025T01:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/span_btn-Login' is clicked on
+
+26-02-2025T01:48:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/4_TB_Login' successfully
+
+26-02-2025T01:48:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/6_TB_Add_Wish_List"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/6_TB_Add_Wish_List' successfully
+
+26-02-2025T01:48:16 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/6_TB_Add_Wish_List: Test Cases/Blocks/Positif Test Case/6_TB_Add_Wish_List
+
+26-02-2025T01:48:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), 0): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/span_profile-andripratamaa")): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:17 - [TEST_STEP][PASSED] - click(findTestObject("Book Details/strong_Harry Potter and the Chamber of Secrets 1")): Object: 'Object Repository/Book Details/strong_Harry Potter and the Chamber of Secrets 1' is clicked on
+
+26-02-2025T01:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Book Details/strong_Harry Potter and the Chamber of Secrets 1' is clicked on
+
+26-02-2025T01:48:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Book Details/mat-label-Book Details"), 0): Object 'Object Repository/Book Details/mat-label-Book Details' is visible
+
+26-02-2025T01:48:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:18 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/mat-label-Book Details' is visible
+
+26-02-2025T01:48:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Book Details/mat-label-Book Details")): Object 'Object Repository/Book Details/mat-label-Book Details' is visible
+
+26-02-2025T01:48:18 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/mat-label-Book Details' is visible
+
+26-02-2025T01:48:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Book Details/td_Title_Harry Potter and the Chamber of Secrets 1"), "Harry Potter and the Chamber of Secrets"): Actual text and expected text of test object 'Object Repository/Book Details/td_Title_Harry Potter and the Chamber of Secrets 1' are matched.
+
+26-02-2025T01:48:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Details/td_Title_Harry Potter and the Chamber of Secrets 1' are matched.
+
+26-02-2025T01:48:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Book Details/td_Author_JKR"), "JKR"): Actual text and expected text of test object 'Object Repository/Book Details/td_Author_JKR' are matched.
+
+26-02-2025T01:48:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Details/td_Author_JKR' are matched.
+
+26-02-2025T01:48:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Book Details/td_Category_Mystery"), "Mystery"): Actual text and expected text of test object 'Object Repository/Book Details/td_Category_Mystery' are matched.
+
+26-02-2025T01:48:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Details/td_Category_Mystery' are matched.
+
+26-02-2025T01:48:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Book Details/td_Price_236.00")): Object 'Object Repository/Book Details/td_Price_236.00' is visible
+
+26-02-2025T01:48:19 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/td_Price_236.00' is visible
+
+26-02-2025T01:48:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Book Details/span_btn-Add to Wishlist"), OPTIONAL): Object 'Object Repository/Book Details/span_btn-Add to Wishlist' is visible
+
+26-02-2025T01:48:19 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/span_btn-Add to Wishlist' is visible
+
+26-02-2025T01:48:19 - [TEST_STEP][PASSED] - isAddToWishlistVisible = waitForElementVisible(findTestObject("Book Details/span_btn-Add to Wishlist"), 5, OPTIONAL): Object 'Object Repository/Book Details/span_btn-Add to Wishlist' is visible
+
+26-02-2025T01:48:20 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/span_btn-Add to Wishlist' is visible
+
+26-02-2025T01:48:20 - [TEST_STEP][PASSED] - if (isAddToWishlistVisible): Clicked on Add to Wishlist button
+
+26-02-2025T01:48:20 - [TEST_STEP][PASSED] - click(findTestObject("Book Details/span_btn-Add to Wishlist"), STOP_ON_FAILURE): Object: 'Object Repository/Book Details/span_btn-Add to Wishlist' is clicked on
+
+26-02-2025T01:48:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Book Details/span_btn-Add to Wishlist' is clicked on
+
+26-02-2025T01:48:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Book Details/span_btn-Remove from Wishlist")): Object 'Object Repository/Book Details/span_btn-Remove from Wishlist' is visible
+
+26-02-2025T01:48:21 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/span_btn-Remove from Wishlist' is visible
+
+26-02-2025T01:48:21 - [TEST_STEP][PASSED] - comment("Clicked on Add to Wishlist button"): Clicked on Add to Wishlist button
+
+26-02-2025T01:48:21 - [MESSAGE][INFO] - Clicked on Add to Wishlist button
+
+26-02-2025T01:48:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/6_TB_Add_Wish_List' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario/5_TC_Add_to_Cart" time="0.035" classname="Test Cases/Scenario/5_TC_Add_to_Cart" status="PASSED">
+         <system-out><![CDATA[26-02-2025T01:48:21 - [TEST_CASE][PASSED] - Test Cases/Scenario/5_TC_Add_to_Cart: Test Cases/Scenario/5_TC_Add_to_Cart
+
+26-02-2025T01:48:21 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario/6_TC_Checkout_Cart" time="32.836" classname="Test Cases/Scenario/6_TC_Checkout_Cart" status="PASSED">
+         <system-out><![CDATA[26-02-2025T01:48:21 - [TEST_CASE][PASSED] - Test Cases/Scenario/6_TC_Checkout_Cart: Test Cases/Scenario/6_TC_Checkout_Cart
+
+26-02-2025T01:48:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/1_TB_Open_Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser' successfully
+
+26-02-2025T01:48:21 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser: Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser
+
+26-02-2025T01:48:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-02-2025T01:48:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-02-2025T01:48:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2025T01:48:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2025T01:48:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-02-2025T01:48:22 - [TEST_STEP][PASSED] - navigateToUrl("https://bookcart.azurewebsites.net/"): Navigate to 'https://bookcart.azurewebsites.net/' successfully
+
+26-02-2025T01:48:32 - [MESSAGE][PASSED] - Navigate to 'https://bookcart.azurewebsites.net/' successfully
+
+26-02-2025T01:48:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser' successfully
+
+26-02-2025T01:48:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/4_TB_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/4_TB_Login' successfully
+
+26-02-2025T01:48:32 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/4_TB_Login: Test Cases/Blocks/Positif Test Case/4_TB_Login
+
+26-02-2025T01:48:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page Home_Non Login/span_Book Cart-Home"), 0): Object 'Object Repository/Page Home_Non Login/span_Book Cart-Home' is visible
+
+26-02-2025T01:48:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page Home_Non Login/span_Book Cart-Home' is visible
+
+26-02-2025T01:48:32 - [TEST_STEP][PASSED] - click(findTestObject("Page Home_Non Login/span_btn-Login")): Object: 'Object Repository/Page Home_Non Login/span_btn-Login' is clicked on
+
+26-02-2025T01:48:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Home_Non Login/span_btn-Login' is clicked on
+
+26-02-2025T01:48:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/mat-label-login"), 0): Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:48:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:48:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/mat-label-login"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:48:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:48:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Username"), "andripratamaa"): Keys 'andripratamaa' sent to object: 'Object Repository/Page_Login/input_Username'
+
+26-02-2025T01:48:34 - [MESSAGE][PASSED] - Keys 'andripratamaa' sent to object: 'Object Repository/Page_Login/input_Username'
+
+26-02-2025T01:48:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), "Password123"): Keys 'Password123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+26-02-2025T01:48:34 - [MESSAGE][PASSED] - Keys 'Password123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+26-02-2025T01:48:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/span_btn-Login")): Object: 'Object Repository/Page_Login/span_btn-Login' is clicked on
+
+26-02-2025T01:48:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/span_btn-Login' is clicked on
+
+26-02-2025T01:48:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/4_TB_Login' successfully
+
+26-02-2025T01:48:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/7_TB_Add_to_Cart"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/7_TB_Add_to_Cart' successfully
+
+26-02-2025T01:48:36 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/7_TB_Add_to_Cart: Test Cases/Blocks/Positif Test Case/7_TB_Add_to_Cart
+
+26-02-2025T01:48:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), 0): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/span_profile-andripratamaa")): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:36 - [TEST_STEP][PASSED] - click(findTestObject("Book Details/strong_Harry Potter and the Chamber of Secrets 1")): Object: 'Object Repository/Book Details/strong_Harry Potter and the Chamber of Secrets 1' is clicked on
+
+26-02-2025T01:48:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Book Details/strong_Harry Potter and the Chamber of Secrets 1' is clicked on
+
+26-02-2025T01:48:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Book Details/mat-label-Book Details"), 0): Object 'Object Repository/Book Details/mat-label-Book Details' is visible
+
+26-02-2025T01:48:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:37 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/mat-label-Book Details' is visible
+
+26-02-2025T01:48:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Book Details/mat-label-Book Details")): Object 'Object Repository/Book Details/mat-label-Book Details' is visible
+
+26-02-2025T01:48:38 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/mat-label-Book Details' is visible
+
+26-02-2025T01:48:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Book Details/td_Title_Harry Potter and the Chamber of Secrets 1"), "Harry Potter and the Chamber of Secrets"): Actual text and expected text of test object 'Object Repository/Book Details/td_Title_Harry Potter and the Chamber of Secrets 1' are matched.
+
+26-02-2025T01:48:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Details/td_Title_Harry Potter and the Chamber of Secrets 1' are matched.
+
+26-02-2025T01:48:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Book Details/td_Author_JKR"), "JKR"): Actual text and expected text of test object 'Object Repository/Book Details/td_Author_JKR' are matched.
+
+26-02-2025T01:48:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Details/td_Author_JKR' are matched.
+
+26-02-2025T01:48:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Book Details/td_Category_Mystery"), "Mystery"): Actual text and expected text of test object 'Object Repository/Book Details/td_Category_Mystery' are matched.
+
+26-02-2025T01:48:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Details/td_Category_Mystery' are matched.
+
+26-02-2025T01:48:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Book Details/td_Price_236.00")): Object 'Object Repository/Book Details/td_Price_236.00' is visible
+
+26-02-2025T01:48:39 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/td_Price_236.00' is visible
+
+26-02-2025T01:48:39 - [TEST_STEP][PASSED] - click(findTestObject("Book Details/span_btn-Add to Cart")): Object: 'Object Repository/Book Details/span_btn-Add to Cart' is clicked on
+
+26-02-2025T01:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Book Details/span_btn-Add to Cart' is clicked on
+
+26-02-2025T01:48:39 - [TEST_STEP][PASSED] - waitForAlert(5): No alert found after 5 second(s).
+
+26-02-2025T01:48:44 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+26-02-2025T01:48:44 - [TEST_STEP][PASSED] - actualAlertText = getAlertText(OPTIONAL): No alert found (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.doCall(GetAlertTextKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.call(GetAlertTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.getAlertText(GetAlertTextKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.execute(GetAlertTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(WebUiBuiltInKeywords.groovy:1638)
+	at 7_TB_Add_to_Cart.run(7_TB_Add_to_Cart:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at 6_TC_Checkout_Cart.run(6_TC_Checkout_Cart:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1740509239336.run(TempTestSuite1740509239336.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+26-02-2025T01:48:44 - [MESSAGE][WARNING] - No alert found (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.doCall(GetAlertTextKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.call(GetAlertTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.getAlertText(GetAlertTextKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.execute(GetAlertTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(WebUiBuiltInKeywords.groovy:1638)
+	at 7_TB_Add_to_Cart.run(7_TB_Add_to_Cart:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at 6_TC_Checkout_Cart.run(6_TC_Checkout_Cart:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1740509239336.run(TempTestSuite1740509239336.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\Andri\\Katalon Studio\\TAK Batch 9 - Sesi 3 dan 4\\Reports\\20250226_014719\\Test Suites\\TS_Add to Cart\\20250226_014719\\1740509324750.png]]
+
+26-02-2025T01:48:44 - [TEST_STEP][PASSED] - verifyMatch(actualAlertText, "One Item added to cart", false, OPTIONAL): Unable to verify match between actual text '' and expected text 'One Item added to cart' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'One Item added to cart' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at 7_TB_Add_to_Cart.run(7_TB_Add_to_Cart:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at 6_TC_Checkout_Cart.run(6_TC_Checkout_Cart:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1740509239336.run(TempTestSuite1740509239336.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+26-02-2025T01:48:44 - [MESSAGE][WARNING] - Unable to verify match between actual text '' and expected text 'One Item added to cart' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'One Item added to cart' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at 7_TB_Add_to_Cart.run(7_TB_Add_to_Cart:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at 6_TC_Checkout_Cart.run(6_TC_Checkout_Cart:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1740509239336.run(TempTestSuite1740509239336.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+26-02-2025T01:48:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/7_TB_Add_to_Cart' successfully
+
+26-02-2025T01:48:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/8_TB_Checkout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/8_TB_Checkout' successfully
+
+26-02-2025T01:48:44 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/8_TB_Checkout: Test Cases/Blocks/Positif Test Case/8_TB_Checkout
+
+26-02-2025T01:48:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), 0): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/span_profile-andripratamaa")): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:48:45 - [TEST_STEP][PASSED] - click(findTestObject("Book Details/mat-btn-icon_shopping_cart1")): Object: 'Object Repository/Book Details/mat-btn-icon_shopping_cart1' is clicked on
+
+26-02-2025T01:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Book Details/mat-btn-icon_shopping_cart1' is clicked on
+
+26-02-2025T01:48:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Book Details/mat-label-Shopping-cart"), 0): Object 'Object Repository/Book Details/mat-label-Shopping-cart' is visible
+
+26-02-2025T01:48:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:46 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/mat-label-Shopping-cart' is visible
+
+26-02-2025T01:48:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Book Details/mat-label-Shopping-cart")): Object 'Object Repository/Book Details/mat-label-Shopping-cart' is visible
+
+26-02-2025T01:48:46 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/mat-label-Shopping-cart' is visible
+
+26-02-2025T01:48:46 - [TEST_STEP][PASSED] - verifyTextPresent("Harry Potter and the Chamber of Secrets", false): Text 'Harry Potter and the Chamber of Secrets' is present on page 
+
+26-02-2025T01:48:47 - [MESSAGE][PASSED] - Text 'Harry Potter and the Chamber of Secrets' is present on page 
+
+26-02-2025T01:48:47 - [TEST_STEP][PASSED] - click(findTestObject("Book Details/span_btn-CheckOut")): Object: 'Object Repository/Book Details/span_btn-CheckOut' is clicked on
+
+26-02-2025T01:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Book Details/span_btn-CheckOut' is clicked on
+
+26-02-2025T01:48:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page Checkout/mat-label-Check Out"), 0): Object 'Object Repository/Page Checkout/mat-label-Check Out' is visible
+
+26-02-2025T01:48:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page Checkout/mat-label-Check Out' is visible
+
+26-02-2025T01:48:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page Checkout/mat-label-Check Out")): Object 'Object Repository/Page Checkout/mat-label-Check Out' is visible
+
+26-02-2025T01:48:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page Checkout/mat-label-Check Out' is visible
+
+26-02-2025T01:48:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page Checkout/mat-label-Shipping address")): Object 'Object Repository/Page Checkout/mat-label-Shipping address' is visible
+
+26-02-2025T01:48:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page Checkout/mat-label-Shipping address' is visible
+
+26-02-2025T01:48:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page Checkout/mat-label-Order Summary")): Object 'Object Repository/Page Checkout/mat-label-Order Summary' is visible
+
+26-02-2025T01:48:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page Checkout/mat-label-Order Summary' is visible
+
+26-02-2025T01:48:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page Checkout/input_Name"), "Andri Pratama"): Keys 'Andri Pratama' sent to object: 'Object Repository/Page Checkout/input_Name'
+
+26-02-2025T01:48:49 - [MESSAGE][PASSED] - Keys 'Andri Pratama' sent to object: 'Object Repository/Page Checkout/input_Name'
+
+26-02-2025T01:48:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page Checkout/input_Address Line 1"), "Rumah"): Keys 'Rumah' sent to object: 'Object Repository/Page Checkout/input_Address Line 1'
+
+26-02-2025T01:48:49 - [MESSAGE][PASSED] - Keys 'Rumah' sent to object: 'Object Repository/Page Checkout/input_Address Line 1'
+
+26-02-2025T01:48:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page Checkout/input_Address Line 2"), "Kantor"): Keys 'Kantor' sent to object: 'Object Repository/Page Checkout/input_Address Line 2'
+
+26-02-2025T01:48:50 - [MESSAGE][PASSED] - Keys 'Kantor' sent to object: 'Object Repository/Page Checkout/input_Address Line 2'
+
+26-02-2025T01:48:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page Checkout/input_Pincode"), "123456"): Keys '123456' sent to object: 'Object Repository/Page Checkout/input_Pincode'
+
+26-02-2025T01:48:50 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Page Checkout/input_Pincode'
+
+26-02-2025T01:48:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page Checkout/input_State"), "Jakarta"): Keys 'Jakarta' sent to object: 'Object Repository/Page Checkout/input_State'
+
+26-02-2025T01:48:50 - [MESSAGE][PASSED] - Keys 'Jakarta' sent to object: 'Object Repository/Page Checkout/input_State'
+
+26-02-2025T01:48:50 - [TEST_STEP][PASSED] - click(findTestObject("Page Checkout/span_btn-Place Order")): Object: 'Object Repository/Page Checkout/span_btn-Place Order' is clicked on
+
+26-02-2025T01:48:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Checkout/span_btn-Place Order' is clicked on
+
+26-02-2025T01:48:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page Checkout/mat-label-verify_My Orders"), 0): Object 'Object Repository/Page Checkout/mat-label-verify_My Orders' is visible
+
+26-02-2025T01:48:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:48:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page Checkout/mat-label-verify_My Orders' is visible
+
+26-02-2025T01:48:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page Checkout/mat-label-verify_My Orders")): Object 'Object Repository/Page Checkout/mat-label-verify_My Orders' is visible
+
+26-02-2025T01:48:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page Checkout/mat-label-verify_My Orders' is visible
+
+26-02-2025T01:48:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/8_TB_Checkout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario/7_TC_Check_My_Orders" time="25.621" classname="Test Cases/Scenario/7_TC_Check_My_Orders" status="PASSED">
+         <system-out><![CDATA[26-02-2025T01:48:54 - [TEST_CASE][PASSED] - Test Cases/Scenario/7_TC_Check_My_Orders: Test Cases/Scenario/7_TC_Check_My_Orders
+
+26-02-2025T01:48:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/1_TB_Open_Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser' successfully
+
+26-02-2025T01:48:54 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser: Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser
+
+26-02-2025T01:48:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-02-2025T01:48:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-02-2025T01:48:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2025T01:48:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2025T01:48:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-02-2025T01:48:55 - [TEST_STEP][PASSED] - navigateToUrl("https://bookcart.azurewebsites.net/"): Navigate to 'https://bookcart.azurewebsites.net/' successfully
+
+26-02-2025T01:49:12 - [MESSAGE][PASSED] - Navigate to 'https://bookcart.azurewebsites.net/' successfully
+
+26-02-2025T01:49:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser' successfully
+
+26-02-2025T01:49:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/4_TB_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/4_TB_Login' successfully
+
+26-02-2025T01:49:13 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/4_TB_Login: Test Cases/Blocks/Positif Test Case/4_TB_Login
+
+26-02-2025T01:49:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page Home_Non Login/span_Book Cart-Home"), 0): Object 'Object Repository/Page Home_Non Login/span_Book Cart-Home' is visible
+
+26-02-2025T01:49:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:49:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page Home_Non Login/span_Book Cart-Home' is visible
+
+26-02-2025T01:49:13 - [TEST_STEP][PASSED] - click(findTestObject("Page Home_Non Login/span_btn-Login")): Object: 'Object Repository/Page Home_Non Login/span_btn-Login' is clicked on
+
+26-02-2025T01:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Home_Non Login/span_btn-Login' is clicked on
+
+26-02-2025T01:49:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/mat-label-login"), 0): Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:49:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:49:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:49:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/mat-label-login"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:49:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:49:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Username"), "andripratamaa"): Keys 'andripratamaa' sent to object: 'Object Repository/Page_Login/input_Username'
+
+26-02-2025T01:49:14 - [MESSAGE][PASSED] - Keys 'andripratamaa' sent to object: 'Object Repository/Page_Login/input_Username'
+
+26-02-2025T01:49:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), "Password123"): Keys 'Password123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+26-02-2025T01:49:15 - [MESSAGE][PASSED] - Keys 'Password123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+26-02-2025T01:49:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/span_btn-Login")): Object: 'Object Repository/Page_Login/span_btn-Login' is clicked on
+
+26-02-2025T01:49:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/span_btn-Login' is clicked on
+
+26-02-2025T01:49:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:49:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:49:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:49:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:49:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:49:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/4_TB_Login' successfully
+
+26-02-2025T01:49:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/9_TB_Check_My_Orders"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/9_TB_Check_My_Orders' successfully
+
+26-02-2025T01:49:17 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/9_TB_Check_My_Orders: Test Cases/Blocks/Positif Test Case/9_TB_Check_My_Orders
+
+26-02-2025T01:49:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), 0): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:49:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:49:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:49:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/span_profile-andripratamaa")): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:49:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:49:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/span_profile-andripratamaa")): Object: 'Object Repository/Page_Login/span_profile-andripratamaa' is clicked on
+
+26-02-2025T01:49:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/span_profile-andripratamaa' is clicked on
+
+26-02-2025T01:49:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page Home Login/span_My Orders"), STOP_ON_FAILURE): Object 'Object Repository/Page Home Login/span_My Orders' is visible
+
+26-02-2025T01:49:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page Home Login/span_My Orders' is visible
+
+26-02-2025T01:49:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page Home Login/span_Logout")): Object 'Object Repository/Page Home Login/span_Logout' is visible
+
+26-02-2025T01:49:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page Home Login/span_Logout' is visible
+
+26-02-2025T01:49:19 - [TEST_STEP][PASSED] - click(findTestObject("Page Home Login/span_My Orders")): Object: 'Object Repository/Page Home Login/span_My Orders' is clicked on
+
+26-02-2025T01:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Home Login/span_My Orders' is clicked on
+
+26-02-2025T01:49:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page Checkout/mat-label-verify_My Orders"), 0, OPTIONAL): Object 'Object Repository/Page Checkout/mat-label-verify_My Orders' is visible
+
+26-02-2025T01:49:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:49:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page Checkout/mat-label-verify_My Orders' is visible
+
+26-02-2025T01:49:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/9_TB_Check_My_Orders' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario/8_TC_Logout" time="13.24" classname="Test Cases/Scenario/8_TC_Logout" status="PASSED">
+         <system-out><![CDATA[26-02-2025T01:49:20 - [TEST_CASE][PASSED] - Test Cases/Scenario/8_TC_Logout: Test Cases/Scenario/8_TC_Logout
+
+26-02-2025T01:49:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/1_TB_Open_Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser' successfully
+
+26-02-2025T01:49:20 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser: Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser
+
+26-02-2025T01:49:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-02-2025T01:49:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-02-2025T01:49:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2025T01:49:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2025T01:49:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-02-2025T01:49:21 - [TEST_STEP][PASSED] - navigateToUrl("https://bookcart.azurewebsites.net/"): Navigate to 'https://bookcart.azurewebsites.net/' successfully
+
+26-02-2025T01:49:25 - [MESSAGE][PASSED] - Navigate to 'https://bookcart.azurewebsites.net/' successfully
+
+26-02-2025T01:49:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/1_TB_Open_Browser' successfully
+
+26-02-2025T01:49:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/4_TB_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/4_TB_Login' successfully
+
+26-02-2025T01:49:25 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/4_TB_Login: Test Cases/Blocks/Positif Test Case/4_TB_Login
+
+26-02-2025T01:49:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page Home_Non Login/span_Book Cart-Home"), 0): Object 'Object Repository/Page Home_Non Login/span_Book Cart-Home' is visible
+
+26-02-2025T01:49:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:49:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page Home_Non Login/span_Book Cart-Home' is visible
+
+26-02-2025T01:49:26 - [TEST_STEP][PASSED] - click(findTestObject("Page Home_Non Login/span_btn-Login")): Object: 'Object Repository/Page Home_Non Login/span_btn-Login' is clicked on
+
+26-02-2025T01:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Home_Non Login/span_btn-Login' is clicked on
+
+26-02-2025T01:49:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/mat-label-login"), 0): Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:49:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:49:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:49:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/mat-label-login"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:49:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:49:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Username"), "andripratamaa"): Keys 'andripratamaa' sent to object: 'Object Repository/Page_Login/input_Username'
+
+26-02-2025T01:49:27 - [MESSAGE][PASSED] - Keys 'andripratamaa' sent to object: 'Object Repository/Page_Login/input_Username'
+
+26-02-2025T01:49:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), "Password123"): Keys 'Password123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+26-02-2025T01:49:28 - [MESSAGE][PASSED] - Keys 'Password123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+26-02-2025T01:49:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/span_btn-Login")): Object: 'Object Repository/Page_Login/span_btn-Login' is clicked on
+
+26-02-2025T01:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/span_btn-Login' is clicked on
+
+26-02-2025T01:49:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:49:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:49:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:49:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:49:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/4_TB_Login' successfully
+
+26-02-2025T01:49:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Positif Test Case/10_TB_Logout_Website"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Positif Test Case/10_TB_Logout_Website' successfully
+
+26-02-2025T01:49:30 - [TEST_CASE][PASSED] - Test Cases/Blocks/Positif Test Case/10_TB_Logout_Website: Test Cases/Blocks/Positif Test Case/10_TB_Logout_Website
+
+26-02-2025T01:49:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Login/span_profile-andripratamaa"), 0): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:49:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:49:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/span_profile-andripratamaa")): Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_profile-andripratamaa' is visible
+
+26-02-2025T01:49:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/span_profile-andripratamaa")): Object: 'Object Repository/Page_Login/span_profile-andripratamaa' is clicked on
+
+26-02-2025T01:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/span_profile-andripratamaa' is clicked on
+
+26-02-2025T01:49:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page Home Login/span_My Orders"), STOP_ON_FAILURE): Object 'Object Repository/Page Home Login/span_My Orders' is visible
+
+26-02-2025T01:49:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page Home Login/span_My Orders' is visible
+
+26-02-2025T01:49:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page Home Login/span_Logout")): Object 'Object Repository/Page Home Login/span_Logout' is visible
+
+26-02-2025T01:49:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page Home Login/span_Logout' is visible
+
+26-02-2025T01:49:31 - [TEST_STEP][PASSED] - click(findTestObject("Page Home Login/span_Logout")): Object: 'Object Repository/Page Home Login/span_Logout' is clicked on
+
+26-02-2025T01:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Home Login/span_Logout' is clicked on
+
+26-02-2025T01:49:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Login/mat-label-login"), 0): Object 'Object Repository/Page_Login/mat-label-login' is present
+
+26-02-2025T01:49:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2025T01:49:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/mat-label-login' is present
+
+26-02-2025T01:49:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/mat-label-login")): Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:49:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/mat-label-login' is visible
+
+26-02-2025T01:49:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/span_label-NewUser")): Object 'Object Repository/Page_Login/span_label-NewUser' is visible
+
+26-02-2025T01:49:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_label-NewUser' is visible
+
+26-02-2025T01:49:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Positif Test Case/10_TB_Logout_Website' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-02-2025T01:47:26 - [TEST_SUITE][PASSED] - TS_Add to Cart: Test Cases/Scenario/8_TC_Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

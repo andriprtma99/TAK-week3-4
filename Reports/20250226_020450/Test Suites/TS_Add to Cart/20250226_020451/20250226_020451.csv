@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Add to Cart,Chrome 133.0.6943.127,,,26-02-2025 02:05:02,26-02-2025 02:06:03,1m - 0.610s,PASSED
+,,,,,,,
+Test Cases/Scenario/2_TC_Login,Chrome 133.0.6943.127,Test case login,,26-02-2025 02:05:02,26-02-2025 02:05:16,13.615s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/1_TB_Open_Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:05:03,26-02-2025 02:05:11,8.858s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/4_TB_Login""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:05:11,26-02-2025 02:05:16,4.462s,PASSED
+,,,,,,,
+Test Cases/Scenario/3_TC_Detail_Product,Chrome 133.0.6943.127,,,26-02-2025 02:05:16,26-02-2025 02:05:33,16.678s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/1_TB_Open_Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:05:16,26-02-2025 02:05:26,9.787s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/4_TB_Login""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:05:26,26-02-2025 02:05:29,3.632s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/5_TB_Detail_Product""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:05:29,26-02-2025 02:05:33,3.176s,PASSED
+,,,,,,,
+Test Cases/Scenario/4_TC_Add_Wish_List,Chrome 133.0.6943.127,,,26-02-2025 02:05:33,26-02-2025 02:06:03,29.958s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/1_TB_Open_Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:05:33,26-02-2025 02:05:53,20.112s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/4_TB_Login""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:05:53,26-02-2025 02:05:57,4.345s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/6_TB_Add_Wish_List""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:05:57,26-02-2025 02:06:03,5.444s,PASSED
+,,,,,,,
+Test Cases/Scenario/5_TC_Add_to_Cart,Chrome 133.0.6943.127,,,26-02-2025 02:06:03,26-02-2025 02:06:03,0.035s,PASSED
+return null,Chrome 133.0.6943.127,,,26-02-2025 02:06:03,26-02-2025 02:06:03,0.001s,PASSED

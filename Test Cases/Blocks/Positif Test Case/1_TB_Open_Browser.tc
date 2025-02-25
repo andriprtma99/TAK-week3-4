@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open Browser</description>
+   <name>1_TB_Open_Browser</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>17977aaf-1e8e-4775-b053-4eeb0579ce11</testCaseGuid>
+</TestCaseEntity>

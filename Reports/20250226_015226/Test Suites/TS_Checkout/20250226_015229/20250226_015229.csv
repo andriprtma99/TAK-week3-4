@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Checkout,Chrome 133.0.6943.127,,,26-02-2025 02:01:53,26-02-2025 02:03:20,1m - 27.211s,PASSED
+,,,,,,,
+Test Cases/Scenario/6_TC_Checkout_Cart,Chrome 133.0.6943.127,,,26-02-2025 02:01:53,26-02-2025 02:02:34,40.807s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/1_TB_Open_Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:01:53,26-02-2025 02:02:10,16.916s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/4_TB_Login""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:02:10,26-02-2025 02:02:15,4.746s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/7_TB_Add_to_Cart""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:02:15,26-02-2025 02:02:24,9.088s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/8_TB_Checkout""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:02:24,26-02-2025 02:02:34,9.710s,PASSED
+,,,,,,,
+Test Cases/Scenario/7_TC_Check_My_Orders,Chrome 133.0.6943.127,,,26-02-2025 02:02:34,26-02-2025 02:02:56,21.926s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/1_TB_Open_Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:02:34,26-02-2025 02:02:49,14.786s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/4_TB_Login""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:02:49,26-02-2025 02:02:53,4.094s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/9_TB_Check_My_Orders""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:02:53,26-02-2025 02:02:56,2.958s,PASSED
+,,,,,,,
+Test Cases/Scenario/8_TC_Logout,Chrome 133.0.6943.127,,,26-02-2025 02:02:56,26-02-2025 02:03:20,24.146s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/1_TB_Open_Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:02:56,26-02-2025 02:03:12,16.275s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/4_TB_Login""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:03:12,26-02-2025 02:03:17,4.523s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/10_TB_Logout_Website""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 02:03:17,26-02-2025 02:03:20,3.268s,PASSED

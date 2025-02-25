@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>7_TC_Check_My_Orders</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bf7b423d-1b1b-4062-9aae-ce164edc0f74</testCaseGuid>
+</TestCaseEntity>

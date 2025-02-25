@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Book Details/span_btn-Add to Wishlist",
+      "brokenLocator": "//span[(text() \u003d \u0027 Add to Wishlist\n\u0027 or . \u003d \u0027 Add to Wishlist\n\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Add to Cart\u0027])[1]/following::span[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250226_015226/Test Suites/TS_Add to Cart/20250226_015227/Object Repository/Book Details/span_btn-Add to Wishlist_XPATH.png"
+    }
+  ]
+}

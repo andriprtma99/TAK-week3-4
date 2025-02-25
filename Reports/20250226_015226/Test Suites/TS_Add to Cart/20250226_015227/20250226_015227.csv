@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Add to Cart,Chrome 133.0.6943.127,,,26-02-2025 01:52:39,26-02-2025 02:01:35,8m - 56.517s,FAILED
+,,,,,,,
+Test Cases/Scenario/2_TC_Login,Chrome 133.0.6943.127,Test case login,,26-02-2025 01:52:39,26-02-2025 01:52:57,17.903s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/1_TB_Open_Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 01:52:40,26-02-2025 01:52:52,12.511s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/4_TB_Login""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 01:52:52,26-02-2025 01:52:57,4.939s,PASSED
+,,,,,,,
+Test Cases/Scenario/3_TC_Detail_Product,Chrome 133.0.6943.127,,,26-02-2025 01:52:57,26-02-2025 01:53:24,26.577s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/1_TB_Open_Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 01:52:57,26-02-2025 01:53:16,18.928s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/4_TB_Login""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 01:53:16,26-02-2025 01:53:20,4.171s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/5_TB_Detail_Product""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 01:53:20,26-02-2025 01:53:24,3.310s,PASSED
+,,,,,,,
+Test Cases/Scenario/4_TC_Add_Wish_List,Chrome 133.0.6943.127,,,26-02-2025 01:59:15,26-02-2025 02:01:35,2m - 20.391s,FAILED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/1_TB_Open_Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 01:59:15,26-02-2025 01:59:46,30.995s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/4_TB_Login""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 01:59:46,26-02-2025 01:59:50,4.298s,PASSED
+"callTestCase(findTestCase(""Blocks/Positif Test Case/6_TB_Add_Wish_List""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,26-02-2025 01:59:50,26-02-2025 02:01:35,1m - 45.089s,FAILED
+,,,,,,,
+Test Cases/Scenario/5_TC_Add_to_Cart,Chrome 133.0.6943.127,,,26-02-2025 02:01:35,26-02-2025 02:01:35,0.026s,PASSED
+return null,Chrome 133.0.6943.127,,,26-02-2025 02:01:35,26-02-2025 02:01:35,0.000s,PASSED

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menambahkan wishlist</description>
+   <name>6_TB_Add_Wish_List</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e82a9450-ef5f-4f0f-8e48-633c393bf21b</testCaseGuid>
+</TestCaseEntity>

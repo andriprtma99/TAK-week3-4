@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>10_TB_Logout_Website</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2aa35c0b-f524-4b54-a650-5ab097e82c29</testCaseGuid>
+</TestCaseEntity>
